@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Music Application </title>
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="/resources/demos/style.css">
+ 
+  <style>
+  #feedback { font-size: 1.2em; }
+  #selectable .ui-selecting { background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%); }
+  #selectable .ui-selected { background: #ff0080; color: black; }
+  #selectable { list-style-type: none; margin: 0; padding: 0; width: 30%; }
+  #selectable li { margin: 3px; padding: 0.4em; font-size: 1.2em; height: 18px; }
+  </style>
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script>
+  $( function() {
+    $( "#selectable" ).selectable();
+  } );
+  </script>
+</head>
+    <style>
+body {
+    margin:25px;
+    justify-content: space-between;
+    
+        }
+ 
+div.polaroid {
+
+  width: 60%;
+   background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+   
+}
+
+div.container {
+  text-align: center;
+  padding: 10px 20px;
+    text-underline-position: below;
+    text-decoration-line: underline;
+    font-family: monospace;
+    font-style: italic;
+    font-size: 18px;
+   text-align: center;
+    
+
+    
+}
+        
+        
+</style>
+</head>
+<body>
+    <style>
+        body{
+       background-image: url(photo_2019-02-13_00-07-41.jpg)
+          
+           
+        }
+        .column{
+            float: left;
+            width: 33.3%;
+            padding: 5px;
+            
+        }
+        
+        .row:after{
+            content: "";
+            clear: both;
+            display: table;
+        }
+    
+    
+    </style>
+
+    
+<body>
+    
+ 
+<center>
+    
+    <div></div><ol id="selectable">
+    <div class="polaroid">
+  <img src=blues.jpg alt="5 Terre" style="width:100%">
+  <div class="container">
+  <p><li class="ui-widget-content" >Blues</li></p>
+      
+  </div>
+</div> 
+    &nbsp;&nbsp;&nbsp;&nbsp;
+    
+
+    <div class="polaroid">
+  <img src=TH+227+1.jpg alt="5 Terre" style="width:100%">
+  <div class="container">
+  <p><li class="ui-widget-content">Hip Hop</li></p>
+  </div>
+</div>
+  &nbsp;&nbsp;&nbsp;&nbsp;
+    
+  <div class="polaroid">
+  <img src=flag.jpg alt="5 Terre" style="width:100%">
+  <div class="container">
+    <p><li class="ui-widget-content">Kpop</li></p>
+      </div>
+    </div>
+    &nbsp;&nbsp;&nbsp;&nbsp;
+    
+    
+    <div class="polaroid">
+  <img src=rock-n-roll-music-symbol-vector-background.jpg alt="5 Terre" style="width:100%">
+  <div class="container">
+    <p><li class="ui-widget-content">Rock & Roll</li></p>
+        </div>
+    </div>
+    &nbsp;&nbsp;&nbsp;&nbsp;
+    
+    
+    
+    <div class="polaroid">
+  <img src=malaypop.jpg alt="5 Terre" style="width:100%">
+  <div class="container">
+  <p><li class="ui-widget-content">Malay Pop</li></p>
+        </div>
+    </div>
+    
+    &nbsp;&nbsp;&nbsp;&nbsp;
+    
+    <div class="polaroid">
+  <img src=disk-jokey-with-dj-mixer-neon-sign_1262-15424.jpg alt="5 Terre" style="width:100%">
+  <div class="container">
+  <p><li class="ui-widget-content">Party</li></p>
+        </div>
+    </div>
+    </center>
+  
+</ol>
+    
+ 
+ 
+</body>
+</html>
